@@ -112,5 +112,5 @@ jobs:
       - name: Publish packages
         uses: changesets/action/publish@v2
         with:
-          script: vp run publish
+          script: vp run dualpublish
           pack-dir-artifact-id: ${{ needs.pack.outputs.pack-dir-artifact-id }}
