@@ -1,6 +1,6 @@
 {
   "name": "neuro-api-types",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A list of Neuro API types, split by category.",
   "homepage": "https://github.com/KTrain5169/ts-neuro-api-types#readme",
   "bugs": {

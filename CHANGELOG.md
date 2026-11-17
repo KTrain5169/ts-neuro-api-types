@@ -1,5 +1,11 @@
 # neuro-api-types
 
+## 1.0.5
+
+### Patch Changes
+
+- [`395a635`](https://github.com/KTrain5169/ts-neuro-api-types/commit/395a635148abdf4a0c18477fb23d3e2a5a704dca) Thanks [@KTrain5169](https://github.com/KTrain5169)! - I hope this fixes dualpublishing
+
 ## 1.0.4
 
 ### Patch Changes
