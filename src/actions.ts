@@ -119,9 +119,9 @@ export interface ForceActionMessage extends BaseOutgoingMessage {
      * # Pokémon battle example
      *
      * Opponent's Incineroar: 100%
-     * Opponent's Rillaboom: 92%
-     * Your Calyrex-Ice: 88% | -1 Attack | +1 Special Defense
-     * Your Indeedee-Female: 32% | -1 Attack | BURNED
+     * Opponent's Rillaboom: 92% | -1 Special Defense
+     * Your Calyrex-Ice: 88% (154/175 HP) | -1 Attack | +1 Special Defense
+     * Your Indeedee-Female: 32% (56/177 HP) | -1 Attack | BURNED
      *
      * Psychic Terrain: 5 turns remaining
      * Harsh Sunlight: 3 turns remaining
@@ -208,7 +208,7 @@ export interface ActionResultMessage extends BaseOutgoingMessage {
     success: boolean;
 
     /**
-     * An optional (only on success), *short* message for Neuro regarding the action she took.
+     * An optional (only on success), *short* message for Neuro regarding the action she took. **Neuro will receive this, if present.**
      * Required if `success: false`.
      */
     message?: string;

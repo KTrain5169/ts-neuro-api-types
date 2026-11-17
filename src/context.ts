@@ -7,6 +7,7 @@ export type OutgoingContextMessages = ContextMessage | SpeechStartedMessage | Sp
 
 /**
  * Packet for adding a message to Neuro's context.
+ * @see https://github.com/VedalAI/neuro-sdk/blob/main/API/SPECIFICATION.md#context
  */
 export interface ContextMessage extends BaseOutgoingMessage {
   command: "context";
@@ -26,6 +27,7 @@ export interface ContextMessage extends BaseOutgoingMessage {
 
 /**
  * Packet for indicating that in-game speech is being played.
+ * @see https://github.com/VedalAI/neuro-sdk/blob/main/API/SPECIFICATION.md#speech-started
  */
 export interface SpeechStartedMessage extends BaseOutgoingMessage {
   command: "speech/started";
@@ -68,7 +70,10 @@ export interface SpeechStartedMessage extends BaseOutgoingMessage {
     reply?: "never" | "maybe" | "always";
 
     /**
-     * The character ID corresponding to the AI who should respond to the dialogue. If omitted, will be randomly picked.
+     * The character ID corresponding to the character who should respond to the dialogue. If omitted, will be randomly picked between connected characters.
+     * @example
+     * ```ts
+     * ["neuro", "evil"]
      */
     responder?: string;
   };

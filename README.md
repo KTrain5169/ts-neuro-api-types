@@ -4,7 +4,7 @@ TypeScript types and interfaces for the [Neuro API](https://github.com/VedalAI/n
 
 ## Usage
 
-You usually don't need to use this package directly. You'll usually want to use the [Game SDK](https://npmx.dev/package/neuro-game-sdk) or [Server API](https://npmx.dev/package/neuro-game-api) packages.
+You usually don't need to use this package directly. You'll usually want to use the [Game SDK](https://github.com/AriesAlex/neuro-game-sdk) or [Server API](https://github.com/KTrain5169/neuro-game-api) packages.
 
 If you require the types directly, then you should use this package directly.
 
