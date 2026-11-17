@@ -41,7 +41,7 @@ export interface SpeechStartedMessage extends BaseOutgoingMessage {
     /**
      * Human-readable name of the character doing the voicing. **Neuro will receive this.**
      */
-    name: string;
+    speaker: string;
 
     /**
      * Text that the character is saying. **Neuro will receive this.**

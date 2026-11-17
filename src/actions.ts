@@ -36,19 +36,22 @@ export interface ActionData {
   /**
    * Stringified JSON data sent by Neuro. Parse before use.
    */
-  params: string;
+  data?: string;
 }
 
 /**
- * Version of {@link ActionData `ActionData`} where {@link ParsedActionData.params `params`} is parsed.
+ * Version of {@link ActionData `ActionData`} where {@link ParsedActionData.data `data`} is parsed.
  * Allows for typing of the action data.
  */
-export interface ParsedActionData<TData = unknown> extends Omit<ActionData, "params"> {
+export interface ParsedActionData<TData extends object | undefined = undefined> extends Omit<
+  ActionData,
+  "data"
+> {
   /**
    * Parsed object with data sent by Neuro, (usually) conforming to the action's schema.
    * You should still validate the data to ensure it arrives in the expected shape.
    */
-  params: TData;
+  data: TData;
 }
 
 /**
@@ -98,7 +101,7 @@ export interface UnregisterActionMessage extends BaseOutgoingMessage {
     /**
      * An array of IDs corresponding to actions you want to unregister.
      */
-    action_ids: string[];
+    action_names: string[];
   };
 }
 
