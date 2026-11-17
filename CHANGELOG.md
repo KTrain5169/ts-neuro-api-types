@@ -1,5 +1,11 @@
 # neuro-api-types
 
+## 1.0.2
+
+### Patch Changes
+
+- [`1823bcf`](https://github.com/KTrain5169/ts-neuro-api-types/commit/1823bcf0ebc08c34a28cca9592d6138094226580) Thanks [@KTrain5169](https://github.com/KTrain5169)! - Strengthen schema type
+
 ## 1.0.1
 
 ### Patch Changes
