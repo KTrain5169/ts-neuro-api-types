@@ -62,6 +62,8 @@ jobs:
       - name: Version packages
         id: version
         uses: changesets/action/version@v2
+        with:
+          script: vp run version
 
   pack:
     if: needs.select-mode.outputs.mode == 'publish'

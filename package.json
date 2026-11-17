@@ -39,7 +39,7 @@
     "check": "vp check",
     "prepack": "vp run build",
     "version": "changeset version && node ./jsr-version.mjs",
-    "dualpublish": "vp pm publish && vpx jsr publish",
+    "dualpublish": "changeset publish --output \"$CHANGESETS_OUTPUT\" && jsr publish",
     "prepare": "vp config"
   },
   "devDependencies": {
