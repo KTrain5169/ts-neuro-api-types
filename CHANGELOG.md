@@ -1,5 +1,11 @@
 # neuro-api-types
 
+## 1.0.4
+
+### Patch Changes
+
+- [`0bbd0bf`](https://github.com/KTrain5169/ts-neuro-api-types/commit/0bbd0bf5dcb20f2a5c60ded480cfa320e8ae8c0e) Thanks [@KTrain5169](https://github.com/KTrain5169)! - Add LICENSE
+
 ## 1.0.3
 
 ### Patch Changes
