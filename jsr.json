@@ -1,0 +1,14 @@
+{
+  "name": "@neurosama/api-types",
+  "version": "0.0.0",
+  "exports": {
+    ".": "./src/index.ts",
+    "./actions": "./src/actions.ts",
+    "./context": "./src/context.ts",
+    "./proposals": "./src/proposals.ts",
+    "./server-mappings": "./src/server-mappings.ts",
+    "./startup": "./src/startup.ts",
+    "./voice": "./src/voice.ts",
+    "./package.json": "./package.json"
+  }
+}

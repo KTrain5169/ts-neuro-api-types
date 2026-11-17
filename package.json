@@ -1,0 +1,63 @@
+{
+  "name": "neuro-api-types",
+  "version": "0.0.0",
+  "description": "A list of Neuro API types, split by category.",
+  "homepage": "https://github.com/KTrain5169/ts-neuro-api-types#readme",
+  "bugs": {
+    "url": "https://github.com/KTrain5169/ts-neuro-api-types/issues"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "KTrain5369",
+    "email": "npm@ktrain5369.dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KTrain5169/ts-neuro-api-types.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.mjs",
+    "./actions": "./dist/actions.mjs",
+    "./context": "./dist/context.mjs",
+    "./proposals": "./dist/proposals.mjs",
+    "./server-mappings": "./dist/server-mappings.mjs",
+    "./startup": "./dist/startup.mjs",
+    "./voice": "./dist/voice.mjs",
+    "./package.json": "./package.json"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "vp pack",
+    "dev": "vp pack --watch",
+    "test": "vp test",
+    "check": "vp check",
+    "prepack": "vp run build",
+    "version": "changeset version && node ./jsr-version.mjs",
+    "publish": "vp publish && vpx jsr publish",
+    "prepare": "vp config"
+  },
+  "devDependencies": {
+    "@arethetypeswrong/core": "^0.18.5",
+    "@changesets/changelog-github": "^1.0.1",
+    "@changesets/cli": "^3.0.3",
+    "@types/node": "^26.6.5",
+    "jsr": "^0.14.3",
+    "publint": "^0.3.25",
+    "typescript": "^7.0.2",
+    "vite-plus": "catalog:"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.21.0",
+      "onFail": "download"
+    }
+  },
+  "readme": "./README.md"
+}
