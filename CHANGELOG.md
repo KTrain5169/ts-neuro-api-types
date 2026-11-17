@@ -1,5 +1,11 @@
 # neuro-api-types
 
+## 1.0.1
+
+### Patch Changes
+
+- [`8e3178b`](https://github.com/KTrain5169/ts-neuro-api-types/commit/8e3178b0e29c919b897df610f16755f5a2a1aa1e) Thanks [@KTrain5169](https://github.com/KTrain5169)! - fix publish pipeline?
+
 ## 1.0.0
 
 ### Major Changes
