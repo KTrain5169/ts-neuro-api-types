@@ -1,5 +1,11 @@
 # neuro-api-types
 
+## 1.0.6
+
+### Patch Changes
+
+- [`416cab9`](https://github.com/KTrain5169/ts-neuro-api-types/commit/416cab92804aa0296cb4bbdc40e350f366d03e14) Thanks [@KTrain5169](https://github.com/KTrain5169)! - fix incorrect types
+
 ## 1.0.5
 
 ### Patch Changes
