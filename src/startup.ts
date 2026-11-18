@@ -1,3 +1,7 @@
+/**
+ * Startup-relevant types
+ */
+
 import type { BaseIncomingMessage, BaseOutgoingMessage } from "./index.ts";
 
 /**

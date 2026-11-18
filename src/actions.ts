@@ -1,3 +1,7 @@
+/**
+ * Actions-relevant types
+ */
+
 import type { BaseIncomingMessage, BaseOutgoingMessage } from "./index.ts";
 
 /**

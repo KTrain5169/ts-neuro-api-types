@@ -1,3 +1,7 @@
+/**
+ * Context-related types
+ */
+
 import type { BaseOutgoingMessage } from "./index.ts";
 
 /**

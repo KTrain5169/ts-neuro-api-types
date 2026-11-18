@@ -1,4 +1,8 @@
 /**
+ * Base, extendabble types
+ */
+
+/**
  * A base message that is sent to Neuro.
  */
 export interface BaseOutgoingMessage {

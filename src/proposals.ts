@@ -1,3 +1,7 @@
+/**
+ * Types for packets under proposal
+ */
+
 import type { BaseIncomingMessage, BaseOutgoingMessage } from "./index.ts";
 
 /**

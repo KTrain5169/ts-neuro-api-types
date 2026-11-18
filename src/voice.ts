@@ -1,3 +1,7 @@
+/**
+ * Types related to the Voice Chat API
+ */
+
 import type { BaseIncomingMessage, BaseOutgoingMessage } from "./index.ts";
 
 /**

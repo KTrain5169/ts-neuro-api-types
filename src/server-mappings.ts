@@ -1,3 +1,7 @@
+/**
+ * Server-specific startup acknowledgement types
+ */
+
 import type { StartupAcknowledgementMessage } from "./startup.ts";
 
 export type OfficialServerStartupAcknowledgements =
