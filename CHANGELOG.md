@@ -1,5 +1,11 @@
 # neuro-api-types
 
+## 1.0.9
+
+### Patch Changes
+
+- [`0ce7ee0`](https://github.com/KTrain5169/ts-neuro-api-types/commit/0ce7ee0286fd983bf428a4376dc740f865bdb716) Thanks [@KTrain5169](https://github.com/KTrain5169)! - Add module-level JSDoc
+
 ## 1.0.8
 
 ### Patch Changes
