@@ -17,7 +17,7 @@ export interface Action {
    * Action schema, following the Draft-07 JSON Schema spec (with limitations). **Neuro will receive this.**
    * @see https://github.com/VedalAI/neuro-sdk/blob/main/API/SPECIFICATION.md#action for limitations
    */
-  schema: { type: "object"; [key: string]: unknown };
+  schema?: { type: "object"; [key: string]: unknown };
 }
 
 /**
