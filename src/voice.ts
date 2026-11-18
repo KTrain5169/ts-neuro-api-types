@@ -135,6 +135,34 @@ export interface SpeakingCancelledMessage extends BaseIncomingMessage {
 }
 
 /**
+ * Packet that indicates that Neuro has/has not finished speaking to the integration.
+ * Note that this is sent on the WebSocket connection for text, not the connection for voice.
+ * @see https://github.com/VedalAI/neuro-sdk/blob/main/API/SPECIFICATION.md#speech-finished
+ */
+export interface SpeechFinishedMessage extends BaseIncomingMessage {
+  command: "speech_finished";
+  data: {
+    /**
+     * Whether or not this is the final speech_finished message.
+     * Usually would be set to `true`.
+     */
+    isFinal: boolean;
+
+    /**
+     * Whether or not the speech was cut off.
+     * Note: Cut off speech will still send a `speech_finished` command with `isFinal: true`.
+     */
+    cancelled?: boolean;
+
+    /**
+     * The reason for `isFinal: true`.
+     * Only present if `cancelled: true`.
+     */
+    reason?: string;
+  };
+}
+
+/**
  * Binary frames for sending audio to Neuro.
  * @see https://github.com/VedalAI/neuro-sdk/blob/main/API/VOICE_CHAT.md#binary-frames-game--server-speaker-audio
  */
