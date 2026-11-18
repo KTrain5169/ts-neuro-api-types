@@ -1,5 +1,13 @@
 # neuro-api-types
 
+## 1.0.7
+
+### Patch Changes
+
+- [`c478628`](https://github.com/KTrain5169/ts-neuro-api-types/commit/c478628e88a44ace75ded38ffee38f4ba48b9c7a) Thanks [@KTrain5169](https://github.com/KTrain5169)! - narrow base message data typings to object instead of unknown
+
+- [`dec0774`](https://github.com/KTrain5169/ts-neuro-api-types/commit/dec07744d36ff22668f0d042570b465650a5b2e7) Thanks [@KTrain5169](https://github.com/KTrain5169)! - Add missing speech_finished command packet
+
 ## 1.0.6
 
 ### Patch Changes
