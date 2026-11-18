@@ -4,7 +4,7 @@
 export interface BaseOutgoingMessage {
   command: string;
   game: string;
-  data?: unknown;
+  data?: object;
 }
 
 /**
@@ -12,5 +12,5 @@ export interface BaseOutgoingMessage {
  */
 export interface BaseIncomingMessage {
   command: string;
-  data?: unknown;
+  data?: object;
 }
