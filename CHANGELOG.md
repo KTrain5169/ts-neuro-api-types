@@ -1,5 +1,11 @@
 # neuro-api-types
 
+## 1.0.8
+
+### Patch Changes
+
+- [`c1dcc0a`](https://github.com/KTrain5169/ts-neuro-api-types/commit/c1dcc0ae58c82721ef8960ef0600a10060bf33ef) Thanks [@KTrain5169](https://github.com/KTrain5169)! - allow actions to omit schemas
+
 ## 1.0.7
 
 ### Patch Changes
